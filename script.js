@@ -14,3 +14,33 @@ function SECOND() {
 
 FIRST();
 SECOND ();
+ 
+
+function LEARN_JS(lang,callback) {
+console.log(`Я УЧУ:  ${lang}`);
+callback();
+}
+
+LEARN_JS('JavaScript', function(){
+console.log('Я ПРОШЕЛ ЭТОТ УРОК')
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
